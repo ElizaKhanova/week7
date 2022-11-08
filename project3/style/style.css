@@ -66,6 +66,7 @@ body{
 .header__page{
 background-image: url(../assets/images/main_image.png);
 background-repeat: no-repeat;
+background-size: cover;
 height: 100vh;
 width: 100%;
 display: flex;
@@ -152,6 +153,7 @@ color: #ffffff;
 .card__everyday{
     background-image: url(../assets/images/cozy_sneaker.png);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,6 +163,7 @@ color: #ffffff;
 .card__running{
     background-image: url(../assets/images/tree_sneakers.png);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,6 +172,7 @@ color: #ffffff;
 .card__travel{
     background-image: url(../assets/images/rain_ready.png);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,7 +199,7 @@ color: #ffffff;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-content: center;
-    margin-top: -3%;
+    margin-top: 0;
     width: 100%;
 }
 .card__text{
